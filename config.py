@@ -11,14 +11,15 @@ from common.log import logger
 # 此处的配置值无实际意义，程序不会读取此处的配置，仅用于提示格式，请将配置加入到config.json中
 available_setting = {
     # openai api配置
-    "open_ai_api_key": "",  # openai api key
+    "open_ai_api_key": "d331f54b48c44ea7aeee349a01be247c",  # openai api key
     # openai apibase，当use_azure_chatgpt为true时，需要设置对应的api base
-    "open_ai_api_base": "https://api.openai.com/v1",
+    "open_ai_api_base": "https://oscarchatapi.openai.azure.com/",
+    "azure_deployment_id": "oscarapi",
     "proxy": "",  # openai使用的代理
     # chatgpt模型， 当use_azure_chatgpt为true时，其名称为Azure上model deployment名称
-    "model": "gpt-3.5-turbo",
-    "use_azure_chatgpt": False,  # 是否使用azure的chatgpt
-    "azure_deployment_id": "",  # azure 模型部署名称
+    "model": "gpt-35-turbo",
+    "use_azure_chatgpt": true,  # 是否使用azure的chatgpt
+    "azure_deployment_id": "oscarapi",  # azure 模型部署名称
     # Bot触发配置
     "single_chat_prefix": ["bot", "@bot"],  # 私聊时文本需要包含该前缀才能触发机器人回复
     "single_chat_reply_prefix": "[bot] ",  # 私聊时自动回复的前缀，用于区分真人
