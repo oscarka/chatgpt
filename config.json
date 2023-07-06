@@ -3,7 +3,7 @@
   "model": "gpt-35-turbo",
   "open_ai_api_base":"https://oscarchatapi.openai.azure.com/",
   "azure_deployment_id": "oscarapi",
-  "use_azure_chatgpt": true,  
+  "use_azure_chatgpt": True,  
   "proxy": "",
   "single_chat_prefix": [
     "bot",
