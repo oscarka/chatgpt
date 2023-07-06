@@ -18,7 +18,7 @@ available_setting = {
     "proxy": "",  # openai使用的代理
     # chatgpt模型， 当use_azure_chatgpt为true时，其名称为Azure上model deployment名称
     "model": "gpt-35-turbo",
-    "use_azure_chatgpt": true,  # 是否使用azure的chatgpt
+    "use_azure_chatgpt": True,  # 是否使用azure的chatgpt
     "azure_deployment_id": "oscarapi",  # azure 模型部署名称
     # Bot触发配置
     "single_chat_prefix": ["bot", "@bot"],  # 私聊时文本需要包含该前缀才能触发机器人回复
